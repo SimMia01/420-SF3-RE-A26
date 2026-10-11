@@ -11,7 +11,7 @@ class MainWindow(QMainWindow):
         # Titre de la fenêtre
         self.setWindowTitle("PySide")
 
-        self.bouton_fermer = QPushButton(text="Fermer")
+        self.bouton_fermer = QPushButton("Fermer")
         # connecter l'événement du click à la fonction "close()" de la fenetre
         self.bouton_fermer.pressed.connect(self.close)
 

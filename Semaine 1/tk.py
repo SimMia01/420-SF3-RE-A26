@@ -20,7 +20,7 @@ class Window(Tk):
         i = 1
         for mot in split:
             #Avant l'auteur
-            if mot.startwith("-"):
+            if mot.startswith("-"):
                 resultat += "\n" + mot
             else:
                 resultat += mot
