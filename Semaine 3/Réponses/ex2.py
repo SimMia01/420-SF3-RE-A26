@@ -1,7 +1,7 @@
 from PySide6.QtWidgets import QApplication, QPushButton, QVBoxLayout, QFrame, QLabel
 
 
-class Ex3(QFrame):
+class Ex2(QFrame):
 
     def __init__(self):
         super().__init__()
@@ -69,6 +69,6 @@ class Ex3(QFrame):
 
 
 app = QApplication()
-ex3 = Ex3()
-ex3.show()
+ex2 = Ex2()
+ex2.show()
 app.exec()
